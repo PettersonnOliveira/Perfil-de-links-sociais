@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: Inter , sans-serif;
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#card{
+    background-color:hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+
+}
+#topo img{
+    width: 100px;
+    border-radius: 50%;
+
+}
+#topo h2{
+    color: white;
+    margin: 10px 0;
+}
+#localização{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+#bio{
+    color: white;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+#links a {
+    background-color: #333;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+#links a:hover{
+    background-color:hsl(75, 94%, 57%) ;
+}
+@media (max-width: 375px){
+    #card{
+        max-width: 90%
+    }
+}
